@@ -1,0 +1,44 @@
+
+body{
+  position: relative;
+  min-height: 130vh;
+}
+
+.footer {
+    background-color: #1b1a1a;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+  }
+  
+  .brand-logo{
+    font-size: 30px;
+    margin-left: 20px;
+    color: #988164;
+    transition: color 0.3s;
+  }
+  
+  .copyright {
+    font-size: 14px;
+  }
+  
+  /* Responsive styles for screens smaller than 768px */
+  @media (max-width: 768px) {
+    body{
+      position: relative;
+      height: 100%;
+    }
+    .footer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .copyright {
+      font-size: 12px;
+    }
+  }
+  
